@@ -1,0 +1,47 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: #262626;
+}
+#time
+{
+    border: 5px solid white;
+    height: 140px;
+    width: 560px;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%,-50%);
+    color: #08cef1;
+    font-size: 70px;    
+    box-shadow: 20px 20px 30px rgb(166, 102, 230);
+    
+}
+#time div
+{
+    border: 3px solid wheat;
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 11px;
+    margin-top: 8px;
+    text-align: center;
+    font-size: 70px;
+    line-height: 115px;
+}
+sup
+{
+    font-size: 35px;
+    color: rgb(231, 248, 155);
+    position: absolute;
+    margin-top: 15px;
+}
+span
+{
+    position: absolute;
+    margin-top: 25px;
+}
